@@ -26,39 +26,40 @@ const Footer = () => {
               Transforming businesses through innovative technology solutions.
               We build modern, scalable, and reliable digital experiences that drive growth.
             </p>
-            <div className="flex space-x-4 flex-wrap">
-              <a
-                href="https://www.linkedin.com/in/kartik-dubey-357238203/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 p-2 rounded-lg hover:bg-blue-700 flex items-center"
-                aria-label="Kartik Dubey LinkedIn"
-              >
-                {LinkedInIcon}
-                <span>Kartik Dubey</span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kirtan-bhatt-31313a253/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 p-2 rounded-lg hover:bg-blue-700 flex items-center"
-                aria-label="Kirtan Bhatt LinkedIn"
-              >
-                {LinkedInIcon}
-                <span>Kirtan Bhatt</span>
-              </a>
-              {/* Company Instagram */}
-              <a
-                href="https://www.instagram.com/aimadeeasy4u?igsh=MWhpa2tsdnc1bjM0OQ=="  
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 p-2 rounded-lg hover:opacity-80 flex items-center"
-                aria-label="Company Instagram"
-              >
-                {InstagramIcon}
-                <span className="font-medium">Instagram</span>
-              </a>
-            </div>
+           <div className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 flex-wrap">
+  <a
+    href="https://www.linkedin.com/in/kartik-dubey-357238203/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 p-2 rounded-lg hover:bg-blue-700 flex items-center"
+    aria-label="Kartik Dubey LinkedIn"
+  >
+    {LinkedInIcon}
+    <span>Kartik Dubey</span>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/kirtan-bhatt-31313a253/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 p-2 rounded-lg hover:bg-blue-700 flex items-center"
+    aria-label="Kirtan Bhatt LinkedIn"
+  >
+    {LinkedInIcon}
+    <span>Kirtan Bhatt</span>
+  </a>
+  {/* Company Instagram */}
+  <a
+    href="https://www.instagram.com/_gensys_/" // Replace with your real company Instagram
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 p-2 rounded-lg hover:opacity-80 flex items-center"
+    aria-label="Company Instagram"
+  >
+    {InstagramIcon}
+    <span className="font-medium">Instagram</span>
+  </a>
+</div>
+
           </div>
 
           {/* Quick Links */}
