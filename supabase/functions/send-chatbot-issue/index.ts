@@ -30,7 +30,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send issue notification email
     const emailResponse = await resend.emails.send({
       from: "Gensys Chatbot <onboarding@resend.dev>",
-      to: ["121kirtan2122@sjcem.edu.in"],
+      to: ["gensysworkspace@gmail.com"],
       subject: `Chatbot Issue Report - ${new Date(timestamp).toLocaleDateString()}`,
       html: `
         <h2>Chatbot Issue Report</h2>
